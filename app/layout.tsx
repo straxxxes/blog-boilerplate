@@ -1,4 +1,5 @@
 import "./globals.css";
+import navbar from "@lavish/components/Navbar";
 
 export default function RootLayout({
   children,
