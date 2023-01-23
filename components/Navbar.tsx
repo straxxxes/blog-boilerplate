@@ -87,13 +87,13 @@ export const Navbar = () => {
         <div className="text-center  hidden lg:inline-flex ">
           <Link
             href="/"
-            className="text-center transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-md mx-auto mr-3 bg-gray-300"
+            className="text-center transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-gray-500 shadow-md mx-auto mr-3 bg-gray-300"
           >
             <h6 className="text-center  shadow-black">Log In</h6>
           </Link>
           <Link
             href="/"
-            className="text-center  transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-md mx-auto mr-3 shad text-white bg-orange-600"
+            className="text-center  transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-gray-500 shadow-md mx-auto mr-3 shad text-white bg-orange-600"
           >
             <h6 className="text-center  shadow-black">Sign Up</h6>
           </Link>
