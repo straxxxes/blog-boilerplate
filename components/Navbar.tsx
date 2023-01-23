@@ -18,7 +18,7 @@ export const Navbar = () => {
           </h1>
         </Link>
         <button
-          className=" inline-flex p-3 hover:bg-orange-600 rounded lg:hidden ml-auto hover:text-white outline-none"
+          className=" transition-all inline-flex p-3 hover:bg-orange-500 rounded lg:hidden ml-auto hover:text-white outline-none border-2 border-orange-500"
           onClick={handleClick}
         >
           <svg
@@ -46,40 +46,46 @@ export const Navbar = () => {
             <div className="lg:hidden w-full flex flex-col justify-end items-end justify-items-end">
               <Link
                 href="/"
-                className="text-center my-1 max-w-[120px] transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-md shad text-white bg-orange-600"
+                className="text-center my-1 max-w-[120px] transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-md shad text-white bg-orange-500"
               >
-                <h6 className="text-center  shadow-black">Sign Up</h6>
+                <h6 className="text-center">Sign Up</h6>
               </Link>
               <Link
                 href="/"
                 className="text-center  my-1 max-w-[120px] transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-md bg-gray-300"
               >
-                <h6 className="text-center  shadow-black">Log In</h6>
+                <h6 className="text-center">Log In</h6>
               </Link>
             </div>
             <Link
               href="/"
-              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-600"
+              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
               Home
             </Link>
             <Link
               href="/"
-              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-600"
+              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
-              Services
+              Products
             </Link>
             <Link
               href="/"
-              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-600"
+              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
-              About us
+              Portfolio
             </Link>
             <Link
               href="/"
-              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-600"
+              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
-              Contact us
+              Blog
+            </Link>
+            <Link
+              href="/"
+              className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
+            >
+              E-Learning
             </Link>
           </div>
         </div>
@@ -87,15 +93,15 @@ export const Navbar = () => {
         <div className="text-center  hidden lg:inline-flex ">
           <Link
             href="/"
-            className="text-center transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-gray-500 shadow-md mx-auto mr-3 bg-gray-300"
+            className="text-center transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center hover:shadow-md shadow-gray-500 shadow-sm mx-auto mr-3 bg-gray-300 hover:shadow-gray-600"
           >
-            <h6 className="text-center  shadow-black">Log In</h6>
+            <h6 className="text-center">Log In</h6>
           </Link>
           <Link
             href="/"
-            className="text-center  transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center shadow-gray-500 shadow-md mx-auto mr-3 shad text-white bg-orange-600"
+            className="text-center  transition-all lg:inline-flex lg:w-auto w-full px-3 py-2 rounded font-bold items-center justify-center hover:shadow-md hover:shadow-gray-600 shadow-gray-500 shadow-sm mx-auto mr-3 text-white bg-orange-500"
           >
-            <h6 className="text-center  shadow-black">Sign Up</h6>
+            <h6 className="text-center">Sign Up</h6>
           </Link>
         </div>
       </nav>
