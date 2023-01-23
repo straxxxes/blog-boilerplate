@@ -64,25 +64,25 @@ export const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/"
+              href="/products"
               className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
               Products
             </Link>
             <Link
-              href="/"
+              href="/portfolio"
               className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
               Portfolio
             </Link>
             <Link
-              href="/"
+              href="/blog"
               className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
               Blog
             </Link>
             <Link
-              href="/"
+              href="/e-learning"
               className="max-w-[120px] text-right transition-all lg:inline-flex lg:w-auto w-full px-3 py font-bold items-center justify-center border-b-4 border-b-transparent hover:border-b-orange-500"
             >
               E-Learning
