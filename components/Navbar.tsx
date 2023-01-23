@@ -1,15 +1,15 @@
 import React from "react";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className="flex justify-around items-center content-center w-full h-20 py-1 bg-slate-400">
         <div>
-          <h1>LOGO</h1>
+          <h1 className="text-3xl">LOGO</h1>
         </div>
       </nav>
     </>
   );
 };
 
-export default navbar;
+export default Navbar;
