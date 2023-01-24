@@ -6,7 +6,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-image": 'url("/hero_image.png")',
+      },
+      backgroundSize: {
+        "bg-size-sm": "100%",
+      },
+    },
   },
   plugins: [],
 };

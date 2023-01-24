@@ -5,30 +5,33 @@ export default function Home() {
   return (
     <>
       {/* this is the initial root / landing page the visitor will see */}
-      <main>
-        <div className="container my-10 mx-auto max-w-[1024px] h-screen flex flex-col content-around ">
-          <div className="relative  z-20  h-max  w-max max-w-lg translate-x-1/5 translate-y-1/2 before:absolute  before:border before:border-black before:rounded-lg before:-top-5 before:-left-5 before:w-3/5 before:h-2/3 before:-z-50">
-            <div className="bg-[#eeeeee] border rounded-xl p-10 border-orange-500 shadow-md shadow-[rgba(0,0,0,0.5)]">
-              <h1 className="text-2xl font-black uppercase mb-3">
-                welcome to the <br />
-                <span className="text-orange-500"> World of Tomorrow</span>
-              </h1>
-              <p className="text-md">
-                Designing the future through the power of imagination, advanced
-                technology and cutting-edge systems.
-              </p>
-            </div>
-          </div>
-          <div className="absolute w-full h-full max-h-[500px] max-w-[800px] contain z-10 justify-end align-middle top-0 bottom-0 right-0 m-auto rounded-l-xl translate-y-10 translate-x-2/4 border border-black before:absolute  before:border before:border-black before:rounded-lg before:bottom-5 before:right-0 before:w-3/5 before:h-2/3 before:-z-50 before:bg-[#eee] before:w-full before:-left-1/4"></div>
-          <Image
-            width={1080}
-            height={1080}
-            className="absolute w-full h-full shadow-md shadow-gray-600 max-h-[500px] max-w-[800px] contain z-10 justify-end align-middle top-0 bottom-0 right-0 m-auto rounded-l-xl"
-            src="/hero_image.png"
-            alt="imagine a man changing the world"
-          ></Image>
+      <div className="container w-full h-full max-w-5xl mx-auto mb-10 flex flex-col justify-center content-center items-center place-content-center align-center p-10 pt-0">
+        <div className="bg-[#eee] text-center shadow-xl shadow-[0px_0px_30px_rgba(0,0,0,0.3)] rounded-lg px-10 py-10 z-10 translate-y-20 max-w-3xl">
+          <h1 className="uppercase mb-2 font-bold text-xl">
+            Welcome to the &nbsp;
+            <span className="text-orange-500">World of Tomorrow</span>
+          </h1>
+          <p>
+            Designing the future through the power of imagination, advanced
+            technology and cutting-edge systems.
+          </p>
         </div>
-      </main>
+        <div className="w-screen h-screen max-h-[500px] max-w-7xl shadow-none shadow-black rounded-xl border-none border-orange-500 bg-center bg-hero-image bg-bg-size-sm"></div>
+        <div className="w-full  flex justify-evenly p-5">
+          <button
+            type="button"
+            className="bg-orange-500 text-[#eee] text-lg font-bold px-10 py-5 rounded-lg shadow-sm shadow-black"
+          >
+            Learn More
+          </button>
+          <button
+            type="button"
+            className="bg-[#333] text-[#eee] text-lg font-bold px-10 py-5 rounded-lg shadow-sm shadow-black m-0"
+          >
+            View Portfolio
+          </button>
+        </div>
+      </div>
     </>
   );
 }
