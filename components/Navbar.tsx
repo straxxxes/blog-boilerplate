@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center content-center align-middle flex-wrap p-3 ">
+      <nav className=" mx-auto container flex items-center align-middle flex-wrap p-3 ">
         <Link href="/" className="inline-flex items-center p-2 mr-4 ">
           <h1 className="text-xl font-bold uppercase tracking-wide">
             unbounded
